@@ -36,7 +36,7 @@ print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Blue+"________________"+Green+"["+Reset+"FindId"+Red+"]"+Blue+"_______")
-print("     "+Blue+"_______"+Grey+"["+Red+"Created By Benelhaj_younes"+Grey+"]"+Blue+"________"+Reset+"\n")
+print("     "+Blue+"_______"+Grey+"["+Red+"Created By ybenel"+Grey+"]"+Blue+"________"+Reset+"\n")
 
 def cnet():
     try:
@@ -60,7 +60,7 @@ def ID(url):
         print("\n[!] Error: 404 Not Found !!!")
         exit(1)
 if len(sys.argv) !=2:
-    print("\nUsage: python FindId.py <profile_link OR Page_link>\n\nExamples:\n      [Profile~ID] python getid.py https://www.facebook.com/Do0pH2ck911\n      [Group~ID] python getid.py https://www.facebook.com/groups/<groupName>/\n      [Page-ID] python getid.py https://www.facebook.com/Do0pH2ck911/")
+    print("\nUsage: python FindId.py <profile_link OR Page_link>\n\nExamples:\n      [Profile~ID] python FindId.py https://www.facebook.com/ybenel\n      [Group~ID] python FindId.py https://www.facebook.com/groups/<groupName>/\n      [Page-ID] python FindId.py https://www.facebook.com/ybl911/")
     exit(1)
 url = sys.argv[1]
 ID(url)
