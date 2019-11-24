@@ -1,16 +1,14 @@
 # FindId
 ## A Simple Python Script For Get Profile,Page,Group FacebookID
 
-# Installation :
+# Installation | Usage :
+```
 git clone https://github.com/m1ndo/FindId.git
 cd FindId
 pip install -r requirements.txt
         _OR_
 pip2 install -r requirements.txt        
-
-
-# Usage : 
-<img src="https://i.ibb.co/RycytKd/FindId.png" alt="FindId" border="0">
-
+python FindId.py
+```
 # Author : 
 ## ybenel
