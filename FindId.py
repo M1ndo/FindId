@@ -36,7 +36,7 @@ print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Red+"MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
 print("        "+Blue+"________________"+Green+"["+Reset+"FindId"+Red+"]"+Blue+"_______")
-print("     "+Blue+"_______"+Grey+"["+Red+"Created By ybenel"+Grey+"]"+Blue+"________"+Reset+"\n")
+print("     "+Blue+"_______"+Grey+"["+Red+"   Created By ybenel"+Grey+"]"+Blue+"________"+Reset+"\n")
 
 def cnet():
     try:
@@ -65,4 +65,4 @@ if len(sys.argv) !=2:
 url = sys.argv[1]
 ID(url)
 
-#--- End Of File ---#
+#'='!!
